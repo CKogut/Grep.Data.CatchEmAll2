@@ -1,24 +1,16 @@
 # Part 1
 ### a)
-
-
-
+ggrep -P "beed" filescan_00.1 > /Users/corinne/DataLabs/Grep.Data.CatchEmAll2/captured/beedrill.txt
+ggrep -P "blas" filescan_00.1 > ../captured/blastoise.txt
+ggrep -P "bulb" filescan_00.1 > ../captured/bulbasaur.txt
+ggrep -P "butt" filescan_00.1 > ../captured/butterfree.txt
 
 ### b)
 
 
 
 ### c)
-
-
-
-
-
-
-
-
-
-
+filescan_00.1 - Beedrill, blastoise, bulbasaur, betterfree
 
 
 
