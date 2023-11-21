@@ -12,6 +12,12 @@ ggrep -P "char.*meleon" filescan_00.2 > ../captured/charimeleon.txt
 ggrep -P "ivys.*aur" filescan_00.3 > ../captured/ivysaur.txt
 ggrep -P "jigg.*lypuff" filescan_00.3 > ../captured/jigglypuff.txt
 ggrep -P "meow.*th" filescan_00.3 > ../captured/meowth.txt
+ggrep -P "pika.*chu" filescan_00.3 > ../captured/pikachu.txt
+
+ggrep -P "psyd.*uck" filescan_00.4 > ../captured/psyduck.txt
+ggrep -P "squi.*rtle" filescan_00.4 > ../captured/squirtle.txt
+ggrep -P "venu.*saur" filescan_00.4 > ../captured/venusaur.txt
+ggrep -P "wart.*ortle" filescan_00.4 > ../captured/wartorle.txt
 
 ### b)
 
@@ -20,20 +26,18 @@ ggrep -P "meow.*th" filescan_00.3 > ../captured/meowth.txt
 ### c)
 filescan_00.1 - Beedrill, Blastoise, Bulbasaur, Betterfree
 filescan_00.2 - Charmander, Charizard, Charmeleon
-filescan_00.3 - Ivysaur, Jigglypuff, Meowth,Pikachu
-
+filescan_00.3 - Ivysaur, Jigglypuff, Meowth, Pikachu
+filescan_00.4 - Psyduck, Squirtle, Venusaur, Wartortle
 
 
 # Part 2
 ### a)
-
-
-
-
-
+ggrep -P "pika.*chu" filescan_00.3 > ../captured/pikachu.txt   -> 16. So, 15 if you ignore instruction.txt
 
 ### b)
-
+grep -o "beed" beedrill.txt | wc -l
+grep -o "char" charizard.txt | wc -l
+grep -o "pika" pikachu.txt | wc -l
 
 
 
