@@ -9,13 +9,19 @@ ggrep -P "char.*mander" filescan_00.2 > ../captured/charmander.txt
 ggrep -P "char.*izard" filescan_00.2 > ../captured/charizard.txt
 ggrep -P "char.*meleon" filescan_00.2 > ../captured/charimeleon.txt
 
+ggrep -P "ivys.*aur" filescan_00.3 > ../captured/ivysaur.txt
+ggrep -P "jigg.*lypuff" filescan_00.3 > ../captured/jigglypuff.txt
+ggrep -P "meow.*th" filescan_00.3 > ../captured/meowth.txt
+
 ### b)
 
 
 
 ### c)
 filescan_00.1 - Beedrill, Blastoise, Bulbasaur, Betterfree
-filescan_00.1 - Charmander, Charizard, Charmeleon
+filescan_00.2 - Charmander, Charizard, Charmeleon
+filescan_00.3 - Ivysaur, Jigglypuff, Meowth,Pikachu
+
 
 
 # Part 2
